@@ -5,7 +5,9 @@ Syntax help: https://docs.github.com/pt/get-started/writing-on-github/getting-st
 If not previewing in Intellij or any other IDE, you can online preview on:
 https://markdownlivepreview.com/ or https://dillinger.io/
 
-### Project Creation:
+### Project Creation
+Git Tag: projectCreation
+
 https://start.spring.io/
 
 Opts:  
@@ -45,7 +47,9 @@ Run (Shift + F10)
 
 Try access "http://localhost:8080/", to see login page
 
-### First API (master branch - commit ???)
+### First API
+Git Tag: firstSecureApiNoKeycloak
+
 Create a simple controller with GET method @RestController + @GetMapping
 
 Change default root context path and server port, adding in application.properties:
