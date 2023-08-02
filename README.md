@@ -1,0 +1,39 @@
+# spring-boot-with-keycloak
+
+### Project Creation:
+https://start.spring.io/
+Opts: Maven - Java - Spring 3.1.2
+Metadata:
+com.poc
+spring.keycloak
+spring.keycloak
+Demo project for Spring Boot
+com.poc.spring.keycloak
+JAR - JAVA 17
+Dependencies:
+Spring Web
+Spring Boot Actuator
+OAuth2 Authorization Server
+
+### Intellij Community Config
+Version: 2023.2
+Maven: 3.8.6
+Java: 18.0.2 (Oracle)
+
+File > Settings (Ctrl + Alt + S)
+Build, Execution, Deployment > Build Tools > Maven
+Maven home path: <Folder to local Maven>
+User settings file: <Folder to local Maven>/conf/settings.xml
+Local repository: <Custom moven local repository folder if you want>
+
+File > Project Structure... (Ctrl + Alt + Shift + S)
+SDK: 18.0.2
+Language level: 18 - no new language features
+
+Edit Configurations (Alt + Shift + F10)
+(+) Add new Configuration > Application
+Name: RunApp
+Main class: Search for "Application.java" > OK > Apply > OK
+Run (Shift + F10)
+
+Try access "http://localhost:8080/", to see login page
